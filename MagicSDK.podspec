@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MagicSDK'
-  s.version          = '1.3.0'
+  s.version          = '1.4.0'
   s.summary          = 'MagicSDK IOS SDK'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Jerry Liu' => 'jerry@magic.link' }
   s.source           = { :git => 'https://github.com/magicLabs/magic-ios-pod.git', :tag => s.version.to_s }
   s.swift_version = '5.0'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.vendored_frameworks = "MagicSDK/MagicSDK.framework"
   
   s.source_files = 'MagicSDK/MagicSDK.framework/Headers/*.{h}'
